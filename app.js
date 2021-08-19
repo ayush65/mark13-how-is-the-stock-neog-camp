@@ -39,7 +39,7 @@ checkButton.addEventListener("click",(e)=>{
         outputDiv.innerHTML=`<div class="result-div" style="width:100%"><h1>Your Profit is ${profitPercent}% and that is rupees ${profit}</h1></div>`;
     
         if (profitPercent>50){
-            document.body.style.backgroundColor="green";
+            document.body.style.backgroundColor="#B3FFB3";
         }
 
     }else{
@@ -51,7 +51,7 @@ checkButton.addEventListener("click",(e)=>{
        
 
         if(lossPercentage>50){
-            document.body.style.backgroundColor="orange";
+            document.body.style.backgroundColor="#EB4D4B";
         }
     }
 })
